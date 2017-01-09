@@ -27,6 +27,10 @@ github_username:  kcarter787
 # Build settings
 markdown: kramdown
 theme: minima
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 gems:
   - jekyll-feed
 exclude:
