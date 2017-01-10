@@ -8,10 +8,15 @@ categories: jekyll update
 
 [TaskCat-github]: https://github.com/Kcarter787/taskCat
 
-
+{% capture includeGuts %}
 {% include projects_image.html name="task_cat.png" caption="TaskCat makes sure you manage your time" %}
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
 
+{% capture includeGuts %}
 {% include projects_image.html name="taskcat_report.png" caption="TaskCat makes sure you manage your time" %}
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
 
 {% highlight python %}
 # Specify a name and ext for your data
