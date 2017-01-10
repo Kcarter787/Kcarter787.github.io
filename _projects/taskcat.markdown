@@ -4,6 +4,10 @@ title:  "TaskCat"
 date:   2017-01-06 15:09:49 -0500
 categories: jekyll update
 ---
+[TaskCat][TaskCat-github] is a program that helps you keep track of your time.
+
+[TaskCat-github]: https://github.com/Kcarter787/taskCat
+
 
 {% include projects_image.html name="task_cat.png" caption="TaskCat makes sure you manage your time" %}
 
