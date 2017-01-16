@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Ising Model"
-date:   2017-01-05 15:09:49 -0500
+date:   2015-12-05 15:09:49 -0500
 categories: jekyll update
 ---
 

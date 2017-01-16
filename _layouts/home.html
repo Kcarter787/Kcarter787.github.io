@@ -14,7 +14,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}" style="color: #659EC7">{{ post.title | escape }}</a>
         </h2>
       </li>
     {% endfor %}
@@ -27,7 +27,7 @@ layout: default
   <ul class="project-list">
     {% for project in site.projects %}
       <li>
-        <span class="project-meta">{{ project.date | date: "%b, %Y" }}</span>
+        <span class="project-meta">{{ project.date | date: "%b %Y" }}</span>
 
         <h2>
           <a class="project-link" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
